@@ -1,4 +1,4 @@
-Package: fmseaDatabases
+Package: fmseadatabase
 Title: Metabolite and Pathway Databases for fMSEA Analysis
 Version: 1.0.0
 Authors@R: c(

@@ -1,4 +1,4 @@
-# fmseaDatabases
+# fmseadatabase
 
 Metabolite and Pathway Databases for fMSEA Analysis
 
@@ -6,7 +6,7 @@ Metabolite and Pathway Databases for fMSEA Analysis
 
 ```r
 # Install from GitHub
-remotes::install_github("tidymass/fmsea_databases")
+remotes::install_github("tidymass/fmseadatabase")
 ```
 
 ## Available Databases
@@ -27,14 +27,14 @@ remotes::install_github("tidymass/fmsea_databases")
 ## Usage
 
 ```r
-library(fmseaDatabases)
+library(fmseadatabase)
 
 # Load databases
 data("kegg_compound_ms1")
 data("kegg_pathway")
 
 # List all available data
-data(package = "fmseaDatabases")
+data(package = "fmseadatabase")
 
 # Use in fMSEA analysis
 # ...
